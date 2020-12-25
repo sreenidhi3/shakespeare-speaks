@@ -11,7 +11,10 @@ function errorHandler(error) {
 }
 
 function constructURL(text) {
+    console.log(text);
+    console.log(serverURL+"?text="+text);
     return(serverURL+"?text="+text);
+    
 }
 function fetchURL(text) {
     fetch(constructURL(text)).then(response => response.json()).then(json => textOutput.innerText = json.contents.translated).catch(errorHandler);
@@ -21,4 +24,4 @@ function eventHandler() {
     fetchURL(textInput.value);
 }
 
-btnTranslate.addEventListener("click", clickEventHandler);
+btnTranslate.addEventListener("click", eventHandler);
