@@ -17,8 +17,10 @@ body{
 
 textarea{
     font-family: 'Montserrat', sans-serif;
-    border-style: hidden;
+    border-style:double;
+    border-block-width:5px;
     border-radius: 1rem;
+    border-color: rgb(100, 90, 63);
     margin: 1.5rem 0.5rem;
     width: 75%;
     height: 18vh;
@@ -34,8 +36,10 @@ textarea{
     text-align: center !important;
     font-family: 'Special Elite';
     font-size: 14px;
-    border-style: hidden;
+    border-style:double;
+    border-block-width:5px;
     border-radius: 1rem;
+    border-color: rgb(100, 90, 63);
     margin: auto;
     width: 75%;
     height: 18vh;
@@ -72,6 +76,7 @@ button {
 .block{
     text-align: center;
     margin: 0rem;
+    
 }
 
 .block h2{
