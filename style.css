@@ -1,80 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-: root{
-    --primary: #feea6be7;
-    --blue: #375694;
-    --dark-gray:#6B7280;
+:root {
+    --primary: #756c61c4;
+    --brown: #8a7f6f54;
+    --dark-gray:#8a7f6f;
     --ski: #E8E2D3;
+    --shadow:#292826;
 }
 
 body{
-    
     font-weight: 200;
     background-color: var(--ski);
-    background-repeat: no-repeat;
-    background: url("assests/minions.jpg") no-repeat center fixed;
+    font-family:'Special Elite' ;
+    margin: 0rem;
 }
 
 textarea{
     font-family: 'Montserrat', sans-serif;
     border-style: hidden;
-    border-radius: 5px;
+    border-radius: 1rem;
     margin: 1.5rem 0.5rem;
     width: 75%;
-    height: 20vh;
-    background-color: var(--ski);
-    padding: 5px;
+    height: 18vh;
+    background-color: var(--brown);
+    color:var(--shadow) !important ;
+    padding: 1.5rem;
     text-align: center;
     font-size: 14px;
+    color: var(--shadow);
 }
 
 #text-output{
     text-align: center !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Special Elite';
     font-size: 14px;
     border-style: hidden;
-    border-radius: 5px;
+    border-radius: 1rem;
     margin: auto;
     width: 75%;
-    height: 20vh;
-    background-color: var(--ski);
-    padding: 5px;
+    height: 18vh;
+    color:var(--shadow);
+    padding: 1.5rem;
+    background-color: var(--brown);
 }
 
 .container{
-    
-    background-color: var(--primary);
+    /*background-color: var(--brown);*/
     margin: auto;
     padding: 0rem;
-    border-radius: 3rem;
+    border-radius: 2rem;
     border-style: hidden;
-    box-shadow: var(--dark-gray);
     text-align: center;
     max-width: 700px;
     max-height: 80%;
-    box-shadow: 2px 2px rgba(250, 211, 84, 0.959);
+    box-shadow: 2px 2px rgba(241, 231, 196, 0.240);
 }
 
 button {
+    font-family: 'Special Elite';
     margin: 0.5rem;
-    background-color: var(--blue);
+    background-color: var(--shadow);
     padding: 1rem;
     border: hidden;
     border-radius: 0.3rem;
-    box-shadow: antiquewhite;
+    box-shadow: 1px 1px rgba(241, 231, 196, 0.240);
     color:#fff;
+    font-size: 18px;
 
 }
 
 .block{
     text-align: center;
-    padding: 1.5rem;
     margin: 0rem;
 }
 
 .block h2{
-    font-family: 'Big Shoulders Inline Text', cursive; 
-    color:var(--blue); 
+    font-family: 'Special Elite';
+    color:var(--shadow); 
     font-size: 40px !important;
+}
+
+.navigation {
+    font-family: 'Special Elite';
+    background-color: var(--shadow);
+    color: var(--ski);
+    padding: 0.3rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    font-size: 18px;
+    margin: 0rem;
 }
 
